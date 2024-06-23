@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 23, in script
+    $ choices.append("Interogasi saksi")
+  File "game/script.rpy", line 23, in <module>
+    $ choices.append("Interogasi saksi")
+AttributeError: 'LinkedList' object has no attribute 'append'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 23, in script
+    $ choices.append("Interogasi saksi")
+  File "D:\Game Dev\RenPy\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\Game Dev\RenPy\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 23, in <module>
+    $ choices.append("Interogasi saksi")
+AttributeError: 'LinkedList' object has no attribute 'append'
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.3.24061702
+Tugas_SD 1.0
+Sun Jun 23 21:52:03 2024
